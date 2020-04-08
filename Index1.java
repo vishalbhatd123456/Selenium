@@ -15,6 +15,12 @@ public class Index1 {
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
 		
+		//checkpoint to redirect to the correct website
+		System.out.println(driver.getCurrentUrl());
+		
+		//get the page source 
+		System.out.println(driver.getPageSource());
+		
 		
 	}
 }
